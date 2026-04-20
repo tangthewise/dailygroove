@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>Daily Groove</title>
+    <base href="/dailygroove/wwwroot/" />
+    <link rel="stylesheet" href="_content/DailyGroove.UI/css/app.css" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" href="favicon.png" />
+</head>
+
+<body>
+    <div id="app">
+        <div style="display:flex;align-items:center;justify-content:center;height:100dvh;
+                    background:linear-gradient(135deg,#2a2a3d,#1e4270);">
+            <div style="width:40px;height:40px;border-radius:50%;border:3px solid rgba(255,255,255,0.2);
+                        border-top-color:#00C853;animation:spin 0.8s linear infinite;"></div>
+        </div>
+        <style>
+            @keyframes spin {
+                to {
+                    transform: rotate(360deg)
+                }
+            }
+        </style>
+    </div>
+
+    <div id="blazor-error-ui" data-nosnippet>
+        An unhandled error has occurred.
+        <a href="." class="reload">Reload</a>
+        <span class="dismiss">🗙</span>
+    </div>
+
+    <script src="js/interop.js"></script>
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script>navigator.serviceWorker.register('service-worker.js');</script>
+    <script>
+        (function (l) {
+            if (l.search[1] === '/') {
+                var r = l.search.slice(1).replace(/~and~/g, '&');
+                window.history.replaceState(null, null, l.pathname.slice(0, -1) + r + l.hash);
+            }
+        }(window.location))
+    </script>
+</body>
+
+</html>
