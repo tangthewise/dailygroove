@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "N8TV9pmz",
+  "version": "xhqMpKGN",
   "assets": [
     {
       "hash": "sha256-z/Ad2pHzSUdIQih/YAsr4kumMuujyRChvtNMLPpJ/nY=",
@@ -10,15 +10,15 @@ self.assetsManifest = {
       "url": "_content/DailyGroove.UI/css/app.css"
     },
     {
-      "hash": "sha256-dy3hF9AozHJNNvRhF/Nqewh00NHQJMov5kIRXCl96AE=",
+      "hash": "sha256-X2dTLn2XF0jG1sKLfIViuzb021OMGIOvwTqnFshD21Y=",
       "url": "_framework/DailyGroove.Application.wasm"
     },
     {
-      "hash": "sha256-PVIxo3Z7opeZH+34iyOEm6Xzp3/LGLgY/lXepxoLB9Q=",
+      "hash": "sha256-6tKWaJiB0G7uRCvU3qT0Dl1xL53tGIZrvwMxWpYRbdQ=",
       "url": "_framework/DailyGroove.UI.wasm"
     },
     {
-      "hash": "sha256-rD2FtLs8JUV5mPen4CqTM0P7vZ2WacJBhcfS9g82jWY=",
+      "hash": "sha256-R0LzjV1YCYWGLX1or9zrZ5pvppm3WmETu0aArl22U+A=",
       "url": "_framework/DailyGroove.Web.wasm"
     },
     {
@@ -198,7 +198,7 @@ self.assetsManifest = {
       "url": "_framework/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-eV3vVM5MyIRNIz9/Sy5at1a37P7RrUszBG4uu6fv860=",
+      "hash": "sha256-JunYmr5GYUDPA4ZKv5YKPdFpL2Zme8UtpVT7J3drV6c=",
       "url": "_framework/dotnet.js"
     },
     {
