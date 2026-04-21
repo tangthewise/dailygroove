@@ -6,7 +6,7 @@
     var l = window.location;
     var pathParts = l.pathname.split('/');
     l.replace(
-      l.protocol + '//' + l.host + '/' +
+      l.protocol + '//' + l.host +
       pathParts.slice(0, 1 + segmentCount).join('/') + '/?/' +
       pathParts.slice(1 + segmentCount).join('/').replace(/&/g, '~and~') +
       (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +

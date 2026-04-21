@@ -1,8 +1,8 @@
 self.assetsManifest = {
-  "version": "xhqMpKGN",
+  "version": "qIPriXz6",
   "assets": [
     {
-      "hash": "sha256-z/Ad2pHzSUdIQih/YAsr4kumMuujyRChvtNMLPpJ/nY=",
+      "hash": "sha256-62J9BSJX/B+hz/1zShoxFuC4grwd+kPgSZCqy1eTIeo=",
       "url": "404.html"
     },
     {
