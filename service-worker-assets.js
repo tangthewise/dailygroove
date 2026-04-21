@@ -1,8 +1,8 @@
 self.assetsManifest = {
-  "version": "K4KDns8z",
+  "version": "zaHqmGK7",
   "assets": [
     {
-      "hash": "sha256-4nj+aX3b7LvsimxFeho1DX35Lpe2d37XBcdjeUS2XFs=",
+      "hash": "sha256-POWEiwIZJqI1DTE5/htVk/MjTRmb/85d5Y6nQtIK/XY=",
       "url": "404.html"
     },
     {
@@ -246,7 +246,7 @@ self.assetsManifest = {
       "url": "icons/icon-512.png"
     },
     {
-      "hash": "sha256-OJwKSsIWcwd/WobV0aKL2PWEn7207IU6BBj2guqtE3A=",
+      "hash": "sha256-l00woHQsycvG5c4nlK+u7NPrlXD82grbwngwT0z/8LU=",
       "url": "index.html"
     },
     {
@@ -256,6 +256,10 @@ self.assetsManifest = {
     {
       "hash": "sha256-xGNOnODQavuJv6mVZOKbFvxXfWUUCL8QxlqPIjZPrPs=",
       "url": "manifest.webmanifest"
+    },
+    {
+      "hash": "sha256-M4cVmuLgvaw0RtANncjrWQ8Kd30f0E7bJth4upVpi7o=",
+      "url": "privacy.html"
     }
   ]
 };
